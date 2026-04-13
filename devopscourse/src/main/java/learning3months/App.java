@@ -5,6 +5,6 @@ package learning3months;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World! Is everything fine");
+        System.out.println("Hello World! Is everything fine,IS war going to stop");
     }
 }
