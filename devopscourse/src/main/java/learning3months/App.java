@@ -1,19 +1,7 @@
-package com.zomato.model;
+package learning3months;
 
-import java.util.List;
-
-public class Order {
-    private List<FoodItem> items;
-
-    public Order(List<FoodItem> items) {
-        this.items = items;
-    }
-
-    public double calculateTotal() {
-        double total = 0;
-        for (FoodItem item : items) {
-            total += item.getPrice();
-        }
-        return total;
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
     }
 }
